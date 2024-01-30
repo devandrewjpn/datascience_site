@@ -3,21 +3,20 @@ import Slider from "react-slick";
 import Counter from "../src/components/Counter";
 import Layout from "../src/layout/Layout";
 import { testimonialSliderThree } from "../src/sliderProps";
-const OnePageIndex3 = () => {
+
+const Home = () => {
   const singleMenus = [
-    { name: "Home", href: "onepage-home" },
-    { name: "Sobre", href: "onepage-about" },
-    { name: "Serviços", href: "onepage-service" },
-    { name: "Time", href: "onepage-testimonial" },
+    { name: "Home", href: "hero" },
+    { name: "Sobre", href: "about" },
+    { name: "Serviços", href: "services" },
+    { name: "Time", href: "team" },
   ];
   return (
     <Layout
-      header={3}
-      footer={3}
       extraBodyCls="home-three-dark"
       singleMenus={singleMenus}
     >
-      <section className="banner-three p-r z-1" id="onepage-home">
+      <section className="banner-three p-r z-1" id="hero">
         <div className="shape shape-one animate-float-x">
           <span>
             <img src="assets/images/shape/shape-5.png" alt="shape" />
@@ -55,10 +54,10 @@ const OnePageIndex3 = () => {
                 </h1>
                 <p className="wow fadeInDown" data-wow-delay=".7s">Dê um passo a mais para o futuro</p>
                 <div className="hero-button wow fadeInUp" data-wow-delay=".9s">
-                  <a href="#" className="main-btn btn-blue">
+                  <a href="https://app.brasilatuarialds.com.br/campanhaCadastrar" target="_blank" className="main-btn btn-blue" rel="noreferrer">
                     Experimentar Dashboard
                   </a>
-                  <a href="#" className="main-btn filled-btn filled-white">
+                  <a href="#about" className="main-btn filled-btn filled-white">
                     Saiba mais
                   </a>
                 </div>
@@ -79,8 +78,7 @@ const OnePageIndex3 = () => {
           </div>
         </div>
       </section>
-      {/*====== End Banner Section ======*/}
-      {/*====== Start Fact Section ======*/}
+
       <section className="fact-section-three p-r z-1 pt-150">
         <div className="container">
           <div className="row">
@@ -150,9 +148,8 @@ const OnePageIndex3 = () => {
           </div>
         </div>
       </section>
-      {/*====== End Fact Section ======*/}
-      {/*====== Start About section ======*/}
-      <section className="about-section pt-90 pb-80" id="onepage-about">
+
+      <section className="about-section pt-90 pb-80" id="about">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -178,45 +175,8 @@ const OnePageIndex3 = () => {
           </div>
         </div>
       </section>
-      {/*====== End About section ======*/}
-      {/*====== Start Features section ======*/}
-      {/* <section className="features-section-two pb-70">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="features-content-box content-box-gap mb-50 wow fadeInLeft">
-                <div className="section-title text-white wow fadeInDown">
-                  <h2>Trusted Payment Services for your transactions</h2>
-                </div>
-                <p>
-                  On the other hand we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure the moment so blinded by desire, that they cannot
-                  foresee
-                </p>
-                <ul className="check-style-one">
-                  <li>Reflection 2022 Desktop Wallpapers Edition</li>
-                  <li>Designing A Better Infinite Scroll</li>
-                </ul>
-                <Link legacyBehavior href="/about">
-                  <a className="main-btn filled-btn filled-white">Learn More</a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="features-two_img-box p-r z-1 mb-50 wow fadeInRight">
-                <div className="shape shape-one">
-                  <span />
-                </div>
-                <img src="assets/images/gallery/card-2.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/*====== End Features section ======*/}
-      {/*====== Start Service section ======*/}
-      <section className="service-section pb-50" id="onepage-service">
+
+      <section className="service-section pb-50" id="services">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-12">
@@ -275,9 +235,8 @@ const OnePageIndex3 = () => {
           </div>
         </div>
       </section>
-      {/*====== End Service section ======*/}
-      {/*====== Start Features section ======*/}
-      <section className="features-section-two" id="onepage-features">
+
+      <section className="features-section-two">
         <div className="container">
           <div className="features-wrapper wow fadeInDown">
             <div className="row">
@@ -296,7 +255,7 @@ const OnePageIndex3 = () => {
               <div className="col-lg-7">
                 <div className="features-content-box content-box-gap mb-20">
                   <div className="section-title text-white wow fadeInDown">
-                    <a target="_blank" href="#" className="h1 hover_text">Clique aqui e tenha acesso gratuito ao dashboards com dados do mercado segurador.</a>
+                    <a target="_blank" href="https://app.brasilatuarialds.com.br/campanhaCadastrar" rel="noreferrer" className="h1 hover_text">Clique aqui e tenha acesso gratuito ao dashboards com dados do mercado segurador.</a>
                   </div>
                   <p>
                     Sed ut perspiciatis unde omnis iste natus error sit
@@ -310,8 +269,7 @@ const OnePageIndex3 = () => {
           </div>
         </div>
       </section>
-      {/*====== End Features section ======*/}
-      {/*====== Start Testimonial section ======*/}
+
       <section
         className="testimonial-section pt-130 pb-80"
         id="onepage-testimonial"
@@ -355,12 +313,6 @@ const OnePageIndex3 = () => {
                       </p>
                       <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
-                          <div className="author-thumb">
-                            <img
-                              src="assets/images/testimonial/thumb-2.jpg"
-                              alt="Author Image"
-                            />
-                          </div>
                           <div className="author-title">
                             <h4>Ronald B. Griffin</h4>
                             <p className="position">Business Manager</p>
@@ -379,12 +331,6 @@ const OnePageIndex3 = () => {
                       </p>
                       <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
-                          <div className="author-thumb">
-                            <img
-                              src="assets/images/testimonial/thumb-1.jpg"
-                              alt="Author Image"
-                            />
-                          </div>
                           <div className="author-title">
                             <h4>Ronald B. Griffin</h4>
                             <p className="position">Business Manager</p>
@@ -400,78 +346,13 @@ const OnePageIndex3 = () => {
             <div className="col-lg-6">
               <div className="map-img-box p-r z-1 mb-50 wow fadeInRight">
                 <img src="assets/images/gallery/map-2.png" alt="" />
-                {/* <div className="thumb-marker">
-                  <img
-                    src="assets/images/testimonial/marker-thumb.jpg"
-                    alt=""
-                  />
-                </div> */}
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/*====== End Testimonial section ======*/}
-      {/*====== Start Newsletter section ======*/}
-      {/* <section className="newsletter-seciton">
-        <div className="container">
-          <div className="newsletter-wrapper-one pt-70 pb-70 wow fadeInDown">
-            <div className="row justify-content-center">
-              <div className="col-xl-6 col-lg-8">
-                <div className="section-title text-center text-white mb-50">
-                  <h2>Subscribe Our Newsletter to Get More Updates</h2>
-                </div>
-              </div>
-            </div>
-            <div className="row justify-content-center">
-              <div className="col-xl-8">
-                <div className="newsletter-from-two">
-                  <form onSubmit={(e) => e.preventDefault()}>
-                    <div className="form_group">
-                      <span className="input-box">
-                        <input
-                          type="text"
-                          className="form_control"
-                          placeholder="User Name"
-                          name="name"
-                        />
-                        <i className="far fa-user" />
-                      </span>
-                      <span className="input-box">
-                        <input
-                          type="email"
-                          className="form_control"
-                          placeholder="Email Address"
-                          name="email"
-                        />
-                        <i className="far fa-envelope" />
-                      </span>
-                      <div className="form-btn">
-                        <button className="main-btn btn-blue">Subscribe</button>
-                      </div>
-                    </div>
-                    <div className="form_checkbox_two text-center mt-30">
-                      <input
-                        type="checkbox"
-                        name="checkbox"
-                        id="check1"
-                        defaultChecked=""
-                      />
-                      <label htmlFor="check1">
-                        <span>
-                          Subscribe to be the first to hear about upcoming
-                          fintech services!
-                        </span>
-                      </label>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      <section>
+
+      <section id="team">
         <div className="container">
           <div className="row justify-content-around">
             <div className="col-12 section-title text-white text-center mb-5">
@@ -495,4 +376,5 @@ const OnePageIndex3 = () => {
     </Layout>
   );
 };
-export default OnePageIndex3;
+
+export default Home;

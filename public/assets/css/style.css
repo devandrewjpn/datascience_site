@@ -1092,7 +1092,7 @@ button {
 }
 .header-navigation.breakpoint-on .nav-menu {
   text-align: left;
-  background-color: #fff;
+  background-color: #000;
   position: fixed;
   top: 0;
   left: -300px;
@@ -1114,18 +1114,18 @@ button {
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li {
   display: block;
   margin: 0;
-  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid #ececec; */
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li:last-child {
-  border-bottom: 0;
+  /* border-bottom: 0; */
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li.active .sub-menu {
-  border-top: 1px solid #ececec;
+  /* border-top: 1px solid #ececec; */
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li a {
   display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: #1a1a1a;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
+  color: #fff;
   padding: 15px 0;
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li a:before {
@@ -1152,7 +1152,7 @@ button {
   line-height: 45px !important;
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .sub-menu > li > a:hover {
-  border-color: rgba(255, 255, 255, 0.5);
+  /* border-color: rgba(255, 255, 255, 0.5); */
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .dd-trigger {
   display: block;
@@ -8589,7 +8589,10 @@ ul.rating li {
   background-color: #007eff;
 }
 .home-three-dark .header-navigation.breakpoint-on.sticky .main-menu ul > li > a {
-  color: #1a1a1a;
+  color: #fff;
+}
+.home-three-dark .header-navigation.breakpoint-on.sticky .main-menu ul > li > a:hover {
+  color: #007eff;
 }
 .home-three-dark .header-navigation.breakpoint-on .nav-menu .main-menu ul li .dd-trigger {
   background-color: #007eff;

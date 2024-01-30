@@ -17,7 +17,7 @@ const Layout = ({ children, header, footer, extraBodyCls, singleMenus }) => {
   return (
     <Fragment>
       <VideoPopup />
-      <Header header={header} singleMenus={singleMenus} />
+      <Header singleMenus={singleMenus} />
       {children}
       <Footer footer={footer} />
     </Fragment>
