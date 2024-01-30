@@ -194,9 +194,7 @@ const Home = () => {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <Link legacyBehavior href="/service-details">
                       <a>Dashboard Atuarial para Associações</a>
-                    </Link>
                   </h3>
                   <p>Através dele é possível acompanhar a evolução e característica da sua base de veículos associados, o faturamento da carteira, a inadimplência, os eventos e a performance comercial.</p>
                 </div>
@@ -209,9 +207,7 @@ const Home = () => {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <Link legacyBehavior href="/service-details">
                       <a>Dashboard para Empresas de Assistência 24 Horas</a>
-                    </Link>
                   </h3>
                   <p>Através dele é possível acompanhar a evolução da sua base clientes, o faturamento da carteira, a inadimplência e controlar todos as informações referentes a atendimentos.</p>
                 </div>
@@ -224,9 +220,7 @@ const Home = () => {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                    <Link legacyBehavior href="/service-details">
                       <a>Dashboard para Centrais de Rastreamento</a>
-                    </Link>
                   </h3>
                   <p>Com integração direta aos principais sistemas gerenciais do mercado o Dashboard para Centrais de Rastreamento oferece acesso facilitado e dinâmico às informações importantes para a gestão das empresas do setor.</p>
                 </div>
