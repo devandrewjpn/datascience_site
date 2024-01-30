@@ -190,7 +190,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="service-item-three animate-hover-icon text-center mb-80 wow fadeInUp">
                 <div className="icon">
-                  <img width={40} src="/assets/images/dashboard.svg" />
+                  <img width={40} src="/ds/assets/images/dashboard.svg" />
                 </div>
                 <div className="text">
                   <h3 className="title">
@@ -205,7 +205,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="service-item-three animate-hover-icon text-center mb-80 wow fadeInDown">
                 <div className="icon">
-                  <img width={50} src="/assets/images/24horas.svg" />
+                  <img width={50} src="/ds/assets/images/24horas.svg" />
                 </div>
                 <div className="text">
                   <h3 className="title">
@@ -220,7 +220,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="service-item-three animate-hover-icon text-center mb-80 wow fadeInUp">
                 <div className="icon">
-                  <img width={40} src="/assets/images/location.svg" />
+                  <img width={40} src="/ds/assets/images/location.svg" />
                 </div>
                 <div className="text">
                   <h3 className="title">
