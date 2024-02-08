@@ -14,7 +14,7 @@ const Footer = () => (
                     <a>
                       <img
                       width={250}
-                        src="assets/images/logo_branca.png"
+                        src="/ds/assets/images/logo_branca.png"
                         alt="Footer Logo"
                       />
                     </a>

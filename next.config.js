@@ -7,6 +7,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   assetPrefix: 'http://devandrew.com.br/ds/',
+  // assetPrefix: 'http://localhost:3000/ds/',
   images: {
     path: '/<basepath>/_next/image',
     unoptimized: true,

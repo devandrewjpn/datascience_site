@@ -19,22 +19,22 @@ const Home = () => {
       <section className="banner-three p-r z-1" id="hero">
         <div className="shape shape-one animate-float-x">
           <span>
-            <img src="assets/images/shape/shape-5.png" alt="shape" />
+            <img src="/ds/assets/images/shape/shape-5.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-two animate-float-y">
           <span>
-            <img src="assets/images/shape/shape-6.png" alt="shape" />
+            <img src="/ds/assets/images/shape/shape-6.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-three animate-float-y">
           <span>
-            <img src="assets/images/shape/shape-7.png" alt="shape" />
+            <img src="/ds/assets/images/shape/shape-7.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-four animate-float-y">
           <span>
-            <img src="assets/images/shape/shape-8.png" alt="shape" />
+            <img src="/ds/assets/images/shape/shape-8.png" alt="shape" />
           </span>
         </div>
         <div className="shape shape-five">
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div className="shape shape-six">
           <span>
-            <img src="assets/images/shape/shape-9.png" alt="" />
+            <img src="/ds/assets/images/shape/shape-9.png" alt="" />
           </span>
         </div>
         <div className="container">
@@ -69,7 +69,7 @@ const Home = () => {
                 data-wow-delay=".10s"
               >
                 <img
-                  src="assets/images/hero_img.png"
+                  src="/ds/assets/images/hero_img.png"
                   className="hero-img"
                   alt=""
                 />
@@ -158,7 +158,7 @@ const Home = () => {
                   <span />
                 </div>
                 <img
-                  src="assets/images/carros.png"
+                  src="/ds/assets/images/carros.png"
                   className="about-img-one"
                   alt=""
                 />
@@ -194,9 +194,9 @@ const Home = () => {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                      <a>Dashboard Atuarial para Associações</a>
+                      <a>Dashboards Gerenciais (BI)</a>
                   </h3>
-                  <p>Através dele é possível acompanhar a evolução e característica da sua base de veículos associados, o faturamento da carteira, a inadimplência, os eventos e a performance comercial.</p>
+                  <p>Acompanhe diariamente a evolução e característica da sua base de veículos associados, o faturamento da carteira, a inadimplência, os eventos e a performance comercial da sua operação.</p>
                 </div>
               </div>
             </div>
@@ -207,9 +207,9 @@ const Home = () => {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                      <a>Dashboard para Empresas de Assistência 24 Horas</a>
+                      <a>Implantação de Rateio</a>
                   </h3>
-                  <p>Através dele é possível acompanhar a evolução da sua base clientes, o faturamento da carteira, a inadimplência e controlar todos as informações referentes a atendimentos.</p>
+                  <p>Realize a implantação de metodologia de rateio e tenha embasamento jurídico para justificar a sua operação. Receba mensalmente todos os relatórios de rateio.</p>
                 </div>
               </div>
             </div>
@@ -220,9 +220,9 @@ const Home = () => {
                 </div>
                 <div className="text">
                   <h3 className="title">
-                      <a>Dashboard para Centrais de Rastreamento</a>
+                      <a>Fechamento Comercial</a>
                   </h3>
-                  <p>Com integração direta aos principais sistemas gerenciais do mercado o Dashboard para Centrais de Rastreamento oferece acesso facilitado e dinâmico às informações importantes para a gestão das empresas do setor.</p>
+                  <p>Automatize o processo de fechamento da regra de comissionamento dos consultores e transmita trotal transparência a partir de relatórios personalizados.</p>
                 </div>
               </div>
             </div>
@@ -239,11 +239,13 @@ const Home = () => {
                   <div className="shape shape-one">
                     <span />
                   </div>
-                  <img
-                    className="rounded"
-                    src="assets/images/dashboard.jpeg"
-                    alt="Mobile Mockup"
+                  <a target="_blank" href="https://app.brasilatuarialds.com.br/campanhaCadastrar" rel="noreferrer">
+                    <img
+                      className="rounded"
+                      src="/ds/assets/images/dashboard.jpeg"
+                      alt="Mobile Mockup"
                   />
+                  </a>
                 </div>
               </div>
               <div className="col-lg-7">
@@ -251,12 +253,7 @@ const Home = () => {
                   <div className="section-title text-white wow fadeInDown">
                     <a target="_blank" href="https://app.brasilatuarialds.com.br/campanhaCadastrar" rel="noreferrer" className="h1 hover_text">Clique aqui e tenha acesso gratuito ao dashboards com dados do mercado segurador.</a>
                   </div>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusanlorem que laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo.
-                  </p>
+                  <p>Entendendo a importância de embasar-mos decisões em números a Brasil Atuarial Data Science está te oferecendo acesso gratuito ao dashboard de dados do mercado segurador. Através do dashboard é possível analisar números de sinistro e market sahre das seguradoras por estado e cidade, dando embasamento para sua expansão de atuação.</p>
                 </div>
               </div>
             </div>
@@ -281,56 +278,41 @@ const Home = () => {
                 >
                   <div className="testimonial-item-three">
                     <div className="testimonial-content">
-                      <p>
-                        On the other hand we denounce with righteous indignation
-                        and dislike men who are so beguiledc and demoralized by
-                        the charms of pleasure of the moment so blinded by
-                        desire foresee
-                      </p>
-                      <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
+                      <p>Eu sou cliente da empresa Brasil Atuarial há mais de dois anos e estou muito satisfeito com as soluções que eles me oferecem. Graças ao BI, eu consigo analisar minha operação de forma fácil.</p>
+                      {/* <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
                           <div className="author-title">
                             <h4>Ronald B. Griffin</h4>
                             <p className="position">Business Manager</p>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="testimonial-item-three">
                     <div className="testimonial-content">
-                      <p>
-                        On the other hand we denounce with righteous indignation
-                        and dislike men who are so beguiledc and demoralized by
-                        the charms of pleasure of the moment so blinded by
-                        desire foresee
-                      </p>
-                      <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
+                      <p>A empresa Brasil Atuarial Data Science é a melhor escolha para quem precisa acompanhar as atividades de uma associação de proteção veicular. Consigo tomar decisões inteligentes e embasadas. Eu recomendo a Brasil Atuarial.</p>
+                      {/* <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
                           <div className="author-title">
                             <h4>Ronald B. Griffin</h4>
                             <p className="position">Business Manager</p>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="testimonial-item-three">
                     <div className="testimonial-content">
-                      <p>
-                        On the other hand we denounce with righteous indignation
-                        and dislike men who are so beguiledc and demoralized by
-                        the charms of pleasure of the moment so blinded by
-                        desire foresee
-                      </p>
-                      <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
+                      <p>Faço o rateio com a Brasil Atuarial há 6 meses. Estou gostando bastante, por que além de organizar meu rateio não tive nenhum trabalho extra.</p>
+                      {/* <div className="author-rating-box d-flex align-items-center justify-content-between flex-wrap">
                         <div className="author-thumb-title d-flex align-items-center">
                           <div className="author-title">
                             <h4>Ronald B. Griffin</h4>
                             <p className="position">Business Manager</p>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </Slider>
@@ -339,7 +321,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6">
               <div className="map-img-box p-r z-1 mb-50 wow fadeInRight">
-                <img src="assets/images/gallery/map-2.png" alt="" />
+                <img src="/ds/assets/images/gallery/map-2.png" alt="" />
               </div>
             </div>
           </div>
@@ -353,13 +335,13 @@ const Home = () => {
               <h2>Diretores</h2>
             </div>
             <div className="col-lg-4 d-flex flex-column justify-content-around align-items-center gap-2">
-              <img src="assets/images/felipe.png" />
+              <img src="/ds/assets/images/felipe.png" />
               <strong className="h5 text-center text-white">Felipe Reis/ Sócio-Diretor</strong>
               <p className="text-justify">Técnico em Administração pela Escola Técnica de Formação Gerencial de Contagem SEBRAE e graduado em Ciências Atuariais pela UFMG, é Membro do Instituto Brasileiro de Atuária – MIBA 3281. </p>
               <p className="text-justify">Como sócio-diretor da Brasil Atuarial Data Science, realiza trabalhos de assessoria empresarial no que tange a desenvolvimento de projetos de Business Intelligence, revisão atuarial de metodologias estatísticas de provisões técnicas e rateio, elaboração de laudos atuariais de DUE DILIGENCE para associações de proteção veicular, dentre outros. </p>
             </div>
             <div className="col-lg-4 d-flex flex-column justify-content-center align-items-center gap-2">
-              <img src="assets/images/enrico.png" />
+              <img src="/ds/assets/images/enrico.png" />
               <strong className="h5 text-center text-white">Enrico Neto / Sócio-Diretor</strong>
               <p className="text-justify">Graduado em Ciências Atuariais com Especialização em Estatística pela UFMG, é Membro do Instituto Brasileiro de Atuária – MIBA 1771.</p>
               <p className="text-justify">Como sócio-diretor da Brasil Atuarial, realiza trabalhos de assessoria empresarial no que tange a desenvolvimento de produtos de F&I, revisão atuarial de metodologias estatísticas de provisões técnicas, revisão de contratos de instrumentos financeiros para endividamento de empresas, elaboração de laudos atuariais de DUE DILIGENCE para associações de proteção veicular, dentre outros.</p>

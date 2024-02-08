@@ -45,7 +45,7 @@ return (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <img src="assets/images/logo_branca.png" alt="Site Logo" />
+                <img src="/ds/assets/images/logo_branca.png" alt="Site Logo" />
               </a>
             </Link>
           </div>
@@ -56,7 +56,7 @@ return (
               <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img src="assets/images/logo_branca.png" alt="Site Logo" />
+                    <img src="/ds/assets/images/logo_branca.png" alt="Site Logo" />
                   </a>
                 </Link>
               </div>

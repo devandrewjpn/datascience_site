@@ -7,7 +7,7 @@ const LatestServices = () => {
       {/*=== Service Item ===*/}
       <div className="service-item wow fadeInUp">
         <div className="img-holder">
-          <img src="assets/images/service/img-1.jpg" alt="service image" />
+          <img src="/ds/assets/images/service/img-1.jpg" alt="service image" />
         </div>
         <div className="service-content">
           <div className="text">
@@ -44,7 +44,7 @@ const LatestServices = () => {
       {/*=== Service Item ===*/}
       <div className="service-item wow fadeInUp">
         <div className="img-holder">
-          <img src="assets/images/service/img-2.jpg" alt="service image" />
+          <img src="/ds/assets/images/service/img-2.jpg" alt="service image" />
         </div>
         <div className="service-content">
           <div className="text">
@@ -81,7 +81,7 @@ const LatestServices = () => {
       {/*=== Service Item ===*/}
       <div className="service-item wow fadeInUp">
         <div className="img-holder">
-          <img src="assets/images/service/img-3.jpg" alt="service image" />
+          <img src="/ds/assets/images/service/img-3.jpg" alt="service image" />
         </div>
         <div className="service-content">
           <div className="text">
@@ -118,7 +118,7 @@ const LatestServices = () => {
       {/*=== Service Item ===*/}
       <div className="service-item wow fadeInUp">
         <div className="img-holder">
-          <img src="assets/images/service/img-2.jpg" alt="service image" />
+          <img src="/ds/assets/images/service/img-2.jpg" alt="service image" />
         </div>
         <div className="service-content">
           <div className="text">

@@ -46,7 +46,7 @@ const FeedbackSectionChart = () => {
                   <div className="author-thumb-title d-flex">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/testimonial/thumb-1.jpg"
+                        src="/ds/assets/images/testimonial/thumb-1.jpg"
                         alt="Author Image"
                       />
                     </div>
@@ -90,7 +90,7 @@ const FeedbackSectionChart = () => {
                   <div className="author-thumb-title d-flex">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/testimonial/thumb-1.jpg"
+                        src="/ds/assets/images/testimonial/thumb-1.jpg"
                         alt="Author Image"
                       />
                     </div>
@@ -134,7 +134,7 @@ const FeedbackSectionChart = () => {
                   <div className="author-thumb-title d-flex">
                     <div className="author-thumb">
                       <img
-                        src="assets/images/testimonial/thumb-1.jpg"
+                        src="/ds/assets/images/testimonial/thumb-1.jpg"
                         alt="Author Image"
                       />
                     </div>
